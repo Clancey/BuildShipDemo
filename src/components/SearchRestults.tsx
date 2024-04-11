@@ -1,13 +1,13 @@
 import { FunctionComponent } from "react";
 import styles from "./SearchRestults.module.css";
 
-export type SearchRestultsType = {
+export type SearchResultsType = {
   distance?: string;
   duration?: string;
   cost?: string;
 };
 
-const SearchRestults: FunctionComponent<SearchRestultsType> = ({
+const SearchResults: FunctionComponent<SearchResultsType> = ({
   distance,
   duration,
   cost,
@@ -59,4 +59,4 @@ const SearchRestults: FunctionComponent<SearchRestultsType> = ({
   );
 };
 
-export default SearchRestults;
+export default SearchResults;

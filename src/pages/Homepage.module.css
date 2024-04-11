@@ -190,6 +190,127 @@
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+.recommendedPlaces {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.all,
+.restaurants {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.restaurants {
+  width: 85px;
+  color: #f18e8e;
+  text-align: center;
+  min-width: 85px;
+}
+.activities,
+.artsCulture,
+.nature,
+.shopping {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+}
+.activities,
+.nature,
+.shopping {
+  min-width: 67px;
+}
+.activities,
+.nature {
+  min-width: 48px;
+}
+.activities {
+  min-width: 63px;
+}
+.pastaPerleSaladStation {
+  width: 620px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  gap: 8px 45.4px;
+  max-width: 620px;
+}
+.mostPopular,
+.sortBy {
+  position: relative;
+  display: inline-block;
+}
+.sortBy {
+  width: 50px;
+  flex-shrink: 0;
+}
+.mostPopular {
+  font-weight: 500;
+  min-width: 80px;
+}
+.frameIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.mostPopularParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-400);
+}
+.filter,
+.steakHouse {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: var(--font-size-xs);
+}
+.steakHouse {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-silver-100);
+}
+.birchBlvdHarmonyville {
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.birchBlvdHarmonyville,
+.mainNav,
+.recommendations {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainNav {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 5px 0 0;
+  gap: 15px;
+}
+.recommendations {
+  flex-direction: column;
+  gap: 14px;
+  max-width: 100%;
+}
 .viewMoreWith {
   position: relative;
   letter-spacing: -0.01em;
@@ -245,6 +366,8 @@
   color: var(--color-gray-300);
 }
 .mapViewSwitcher {
+  flex-direction: row;
+  gap: var(--gap-5xl);
   color: var(--color-skyblue);
 }
 .elmStSmallville,
@@ -252,10 +375,14 @@
 .mainStreets,
 .mapViewSwitcher {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.mainStreets {
+  flex-direction: row;
   gap: var(--gap-5xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-silver-100);
 }
 .elmStSmallville,
 .homepage {
@@ -266,8 +393,8 @@
   align-self: stretch;
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-xs);
-  color: var(--color-silver-100);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
   font-family: var(--font-poppins);
 }
 .homepage {
@@ -290,6 +417,10 @@
     flex-wrap: wrap;
   }
   .frameParent {
+    max-width: 100%;
+  }
+  .pastaPerleSaladStation {
+    gap: 23px;
     max-width: 100%;
   }
   .elmStSmallville {
