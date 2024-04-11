@@ -1,0 +1,296 @@
+.typeOfRestaurant {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 127px;
+}
+.bxsushiIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.sushi {
+  position: relative;
+  display: inline-block;
+  min-width: 37px;
+}
+.phdogIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.phbowlFoodLightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.rice {
+  position: relative;
+  display: inline-block;
+  min-width: 30px;
+}
+.phdogIcon1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fluentbowlSalad20RegularIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.healthy {
+  position: relative;
+  display: inline-block;
+  min-width: 54px;
+}
+.phdogIcon2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.carbonpedestrianFamilyIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.familyFriendly {
+  position: relative;
+  display: inline-block;
+  min-width: 104px;
+}
+.phdogIcon3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.phdogIcon5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.petFriendly {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.phdogIcon4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.carbonpedestrianfamilyIcon,
+.phbowlfoodlightIcon {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carbonpedestrianfamilyIcon {
+  flex-direction: row;
+  padding: 0 var(--padding-290xl) 0 0;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+.phbowlfoodlightIcon {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.priceRange {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 77px;
+  white-space: nowrap;
+}
+.icons8priceTag {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 27px;
+}
+.iconForPriceTag,
+.priceRangeLabel {
+  display: flex;
+  justify-content: flex-start;
+}
+.iconForPriceTag {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+.priceRangeLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.about {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 41px;
+}
+.discoverTheEssence {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  color: var(--color-gray-400);
+}
+.aboutParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.bxsushiIcon {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.bxsushiIcon,
+.bxsushiIconWrapper,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bxsushiIconWrapper {
+  align-self: stretch;
+}
+.frameWrapper {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 380px;
+  max-width: 100%;
+}
+.whereToFind {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.contentContainerForFinding {
+  align-self: stretch;
+  height: 209px;
+  position: relative;
+  border-radius: 6.74px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.tipLookFor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 160%;
+  color: var(--color-dimgray);
+}
+.frameContainer,
+.frameParent,
+.whereToFindParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whereToFindParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.frameContainer,
+.frameParent {
+  box-sizing: border-box;
+}
+.frameContainer {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  min-width: 335px;
+  max-width: 452px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-400);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 8px 6px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 950px) {
+  .carbonpedestrianfamilyIcon {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .carbonpedestrianfamilyIcon {
+    padding-right: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .carbonpedestrianfamilyIcon {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bxsushiIcon,
+  .bxsushiIconWrapper {
+    gap: var(--gap-base);
+  }
+  .frameContainer {
+    max-width: 100%;
+  }
+}

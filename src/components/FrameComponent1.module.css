@@ -1,0 +1,172 @@
+.theBridlePath {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.tablerstarFilledIcon,
+.tablerstarFilledIcon1,
+.tablerstarFilledIcon2,
+.tablerstarFilledIcon3,
+.tablerstarFilledIcon4 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.tablerstarFilledParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.reviews {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 89px;
+}
+.frameContainer,
+.theBridlePathParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+}
+.theBridlePathParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.birchBlvdHarmonyville,
+.viewInGoogle {
+  position: relative;
+  font-weight: 500;
+}
+.viewInGoogle {
+  color: var(--color-skyblue);
+}
+.frameGroup,
+.sushiRiceHealthyTab {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sushiRiceHealthyTab {
+  flex-direction: row;
+  gap: var(--gap-base);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.icbaselineShareIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icbaselineShareWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0-2px 8px rgba(174, 182, 183, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.share {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 42px;
+}
+.restaurantInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mdiheartIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mdiheartWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0-2px 8px rgba(174, 182, 183, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.addToFavourites {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 124px;
+}
+.restaurantInfo1 {
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.petFriendlyTab,
+.restaurantInfo1 {
+  display: flex;
+  flex-direction: row;
+}
+.petFriendlyTab {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.frameParent {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 925px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theBridlePath {
+    font-size: var(--font-size-lgi);
+  }
+  .sushiRiceHealthyTab {
+    flex-wrap: wrap;
+  }
+}

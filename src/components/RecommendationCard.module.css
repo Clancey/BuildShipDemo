@@ -1,0 +1,163 @@
+.claritystarSolidIcon {
+  height: 10.8px;
+  width: 10.8px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.whereAreWe {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 149.26%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 17px;
+}
+.actionsContainer,
+.searchBar {
+  display: flex;
+  justify-content: flex-start;
+}
+.actionsContainer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-8xs-3);
+}
+.searchBar {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -8.5px;
+  left: 8.7px;
+  border-radius: 1078.12px;
+  background-color: var(--color-skyblue);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs-1) var(--padding-3xs-1) var(--padding-11xs-1)
+    var(--padding-4xs-6);
+}
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 149.26%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 8px;
+}
+.destinationFilter,
+.distance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.destinationFilter {
+  margin: 0 !important;
+  position: absolute;
+  top: 181.4px;
+  left: 63.4px;
+  border-radius: 1078.12px;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs-1) var(--padding-5xs) var(--padding-11xs-1)
+    var(--padding-4xs-7);
+}
+.logoContainer,
+.mainStAnytown {
+  align-self: stretch;
+  position: relative;
+}
+.logoContainer {
+  height: 190.8px;
+  border-radius: 12.94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-162xl-1) var(--padding-92xl-4) 0 var(--padding-4xs-7);
+  box-sizing: border-box;
+  background-image: url(/public/logo-container@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.mainStAnytown {
+  letter-spacing: -0.01em;
+  line-height: 18px;
+}
+.favIcon,
+.joesDiner {
+  position: relative;
+  flex-shrink: 0;
+}
+.joesDiner {
+  width: 93.9px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+}
+.favIcon {
+  height: 19.4px;
+  width: 19.6px;
+  overflow: hidden;
+}
+.recommendedPlaces,
+.sortBy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base-1);
+  color: var(--color-gray-400);
+}
+.recommendedPlaces {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs-7);
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-xs-9);
+  color: var(--color-darkgray-200);
+}
+.logoContainerParent,
+.recommendationcard {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.logoContainerParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-mid);
+}
+.recommendationcard {
+  border-radius: 17.25px;
+  background-color: var(--color-white);
+  box-shadow: 0 10.8px 32.56px rgba(174, 182, 183, 0.15);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 250px;
+  text-align: left;
+  font-size: var(--font-size-2xs-8);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 725px) {
+  .logoContainer {
+    max-width: unset;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recommendationcard {
+    width: 100%;
+    max-width: unset;
+  }
+}
